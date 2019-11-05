@@ -1,5 +1,5 @@
 import {add, sub, multiply, divide} from "./arithmetic.mjs";
-console.log(add(1,4));
+// console.log(add(1,4));
 
 
 export function calculateFns(options){
@@ -29,9 +29,9 @@ export function calculateFns(options){
 }
 
 
-var arrFn = () => {
+// var arrFn = () => {
 	
-	console.log("this is arrrow function")
-};
+// 	console.log("this is arrrow function")
+// };
 
-arrFn();
+// arrFn();

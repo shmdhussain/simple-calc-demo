@@ -11,11 +11,9 @@ export default {
 	"concurrency": 5,
 	"failFast": true,
 	"failWithoutAssertions": false,
-	"environmentVariables": {
-		"MY_ENVIRONMENT_VARIABLE": "some value"
-	},
+	
 	"verbose": true,
-	"compileEnhancements": false,
+	// "compileEnhancements": false,
 	"require": [
 		"esm"
 	],
