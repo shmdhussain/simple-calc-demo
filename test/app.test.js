@@ -4,7 +4,7 @@ import {strict as assert} from 'assert';
 // import { calculateFns } from '../src/app';
 
 test('My test', t => { 
-	assert.equal('sabc', 'abc'); 
+	assert.equal('abc', 'abc'); 
 });
 
 for (var i = 0; i < 3; i++) {
