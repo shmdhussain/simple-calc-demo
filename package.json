@@ -8,7 +8,7 @@
     "calc-fns": "bin/calc-fns"
   },
   "scripts": {
-    "test": "ava test"
+    "test": "ava"
   },
   "author": "Mohamed Hussain S H",
   "license": "ISC",
