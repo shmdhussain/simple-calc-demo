@@ -2,10 +2,29 @@
   "name": "simple_calc_demo",
   "version": "1.0.0",
   "description": "simple demo to learn github actions and unit testing",
-  "main": "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[Crun unit testing\u001b[B",
+  "main": "src/index.js",
+  "bin": {
+    "@shmdhussain/calc-fns": "bin/calc-fns",
+    "calc-fns": "bin/calc-fns"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava test"
   },
   "author": "Mohamed Hussain S H",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "ava": "^2.4.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "arg": "^4.1.1",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.0"
+  }
 }
