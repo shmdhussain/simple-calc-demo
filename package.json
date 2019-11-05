@@ -7,6 +7,7 @@
     "@shmdhussain/calc-fns": "bin/calc-fns",
     "calc-fns": "bin/calc-fns"
   },
+  
   "scripts": {
     "test": "ava"
   },
