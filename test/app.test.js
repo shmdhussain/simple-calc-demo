@@ -46,7 +46,7 @@ const fn = () => {
 test('throws', t => {
 	const error = t.throws(() => {
 		fn();
-	}, "Parameter should be greater than 20s");
+	}, "Parameter should be greater than 20");
 
 	t.is(error.message, 'Parameter should be greater than 20');
 });

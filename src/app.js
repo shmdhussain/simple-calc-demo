@@ -2,7 +2,7 @@
 // console.log(add(1,4));
 
 // var arithmeticFns = require('arithmetic');
-var {add, sub, multiply, divide} = require('arithmetic');
+var {add, sub, multiply, divide} = require('./arithmetic');
 
 
 exports.calculateFns =  function (options){
