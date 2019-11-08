@@ -1,8 +1,11 @@
-import {add, sub, multiply, divide} from "./arithmetic.mjs";
+// import {add, sub, multiply, divide} from "./arithmetic.mjs";
 // console.log(add(1,4));
 
+// var arithmeticFns = require('arithmetic');
+var {add, sub, multiply, divide} = require('arithmetic');
 
-export function calculateFns(options){
+
+exports.calculateFns =  function (options){
 	var result;
 	switch (options.operation){
 		case "add":

@@ -39,6 +39,18 @@ test('arithmeticJS Unit Test - divide', t => {
 	assert.equal(calculateFns(options), 2); 
 });
 
+const fn = () => {
+	throw new Error('Parameter should be greater than 20');
+};
+
+test('throws', t => {
+	const error = t.throws(() => {
+		fn();
+	}, "Parameter should be greater than 20s");
+
+	t.is(error.message, 'Parameter should be greater than 20');
+});
+
 
 
 
