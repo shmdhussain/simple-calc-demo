@@ -1,3 +1,3 @@
 import {add} from "./arithmetic.mjs";
 
-console.log(add(1,4));
+console.log(add(0,4));
