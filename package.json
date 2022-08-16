@@ -7,14 +7,13 @@
     "@shmdhussain/calc-fns": "bin/calc-fns",
     "calc-fns": "bin/calc-fns"
   },
-
   "scripts": {
     "test": "ava"
   },
   "author": "Mohamed Hussain S H",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
+    "@babel/cli": "^7.18.10",
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "ava": "^2.4.0",
